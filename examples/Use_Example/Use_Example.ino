@@ -6,6 +6,9 @@
 // NOTE: csv values made up with missing values between commas will not be interpreted correctly!
 //       Eg. csv = "1,2,,3,4" / Must be csv = "1,2, ,3,4"
 //                  ---^----
+//
+// This library is open source and free to use and or modify.
+
 
 void setup() {
   Serial.begin(115200);
