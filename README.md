@@ -22,17 +22,17 @@ void setup() {
   Serial.print("First CSV string (csv_value1) = ");
   Serial.println(csv_value1);
   Serial.print("GetCSV.Value(csv_value1, ',', 0) = ");
-  Serial.println(GetCSV.Value(csv_value1, ',', 0));
+  Serial.println(GetCSV.Value(csv_value1, ',', 0));     // Prints the CSV text value
   Serial.print("GetCSV.Value(csv_value1, ',', 1) = ");
-  Serial.println(GetCSV.Value(csv_value1, ',', 1));
+  Serial.println(GetCSV.Value(csv_value1, ',', 1));     // Prints the CSV text value
   Serial.print("GetCSV.Value(csv_value1, ',', 2) = ");
-  Serial.println(GetCSV.Value(csv_value1, ',', 2));
+  Serial.println(GetCSV.Value(csv_value1, ',', 2));     // Prints the CSV text value
   Serial.print("GetCSV.Value(csv_value1, ',', 3) = ");
-  Serial.println(GetCSV.Value(csv_value1, ',', 3));
+  Serial.println(GetCSV.Value(csv_value1, ',', 3));     // Prints the CSV text value
   Serial.println("(Unfound String values return NULL.)");
   Serial.println("Number of words in the first csv string is: ");
   Serial.print("GetCSV.Count(csv_value1, ',') = ");
-  Serial.println(GetCSV.Count(csv_value1, ','));
+  Serial.println(GetCSV.Count(csv_value1, ','));     // Prints the CSV text count value
   
   Serial.println("----------------");
   
@@ -40,21 +40,21 @@ void setup() {
   Serial.print("Second CSV string (csv_value2) = ");
   Serial.println(csv_value2);
   Serial.print("GetCSV.Value(csv_value2, ',', 0)).toInt() = ");
-  Serial.println(GetCSV.Value(csv_value2, ',', 0).toInt());
+  Serial.println(GetCSV.Value(csv_value2, ',', 0).toInt());     // Prints the CSV text value converted to int
   Serial.print("GetCSV.Value(csv_value2, ',', 1)).toInt() = ");
-  Serial.println(GetCSV.Value(csv_value2, ',', 1).toInt());
+  Serial.println(GetCSV.Value(csv_value2, ',', 1).toInt());     // Prints the CSV text value converted to int
   Serial.print("GetCSV.Value(csv_value2, ',', 2)).toInt() = ");
-  Serial.println(GetCSV.Value(csv_value2, ',', 2).toInt());
+  Serial.println(GetCSV.Value(csv_value2, ',', 2).toInt());     // Prints the CSV text value converted to int
   Serial.print("GetCSV.Value(csv_value2, ',', 3)).toInt() = ");
-  Serial.println(GetCSV.Value(csv_value2, ',', 3).toInt());
+  Serial.println(GetCSV.Value(csv_value2, ',', 3).toInt());     // Prints the CSV text value converted to int
   Serial.print("GetCSV.Value(csv_value2, ',', 4)).toInt() = ");
-  Serial.println(GetCSV.Value(csv_value2, ',', 4).toInt());
+  Serial.println(GetCSV.Value(csv_value2, ',', 4).toInt());     // Prints the CSV text value converted to int
   Serial.print("GetCSV.Value(csv_value2, ',', 5)).toInt() = ");
-  Serial.println(GetCSV.Value(csv_value2, ',', 5).toInt());
+  Serial.println(GetCSV.Value(csv_value2, ',', 5).toInt());     // Prints the CSV text value converted to int
   Serial.println("(Unfound values return 0 if converted to int.)");
   Serial.println("Number of words in the second csv string is: ");
   Serial.print("GetCSV.Count(csv_value2, ',') = ");
-  Serial.println(GetCSV.Count(csv_value2, ','));
+  Serial.println(GetCSV.Count(csv_value2, ','));     // Prints the CSV text count value
 
   Serial.println("----------------");
   
@@ -63,7 +63,7 @@ void setup() {
   Serial.println(csv_value3);
   Serial.println("(Ending comma added.)");
   Serial.print("GetCSV.Count(csv_value3, ',') = ");
-  Serial.println(GetCSV.Count(csv_value3, ','));
+  Serial.println(GetCSV.Count(csv_value3, ','));     // Prints the CSV text count value
 
 }
 
