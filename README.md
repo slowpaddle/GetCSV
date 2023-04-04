@@ -1,4 +1,11 @@
 ```
+//====================================================================
+// GetCSV.h - Description and Usage
+// Dave Gillen - davebuildsthings.ca
+// Written April 2, 2023
+// This library and sample code is open source and free to use/modify.
+//====================================================================
+
 // GetCSV.h is a simple library used to extract values from a CSV string or count the number of
 // values contained in a CSV string.
 //
